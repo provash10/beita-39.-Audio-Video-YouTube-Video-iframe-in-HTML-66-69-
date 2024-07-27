@@ -1,0 +1,58 @@
+39. Audio,Video,YouTube Video & iframe in HTML (66-69)
+<link href="css/style.css" rel="stylesheet"/>
+=================================================
+Audio Tag
+            <audio>
+                <source src=""/>
+            </audio>
+
+*****must add a control <audio controls autoplay loop> bar for playing the song.
+               
+                <audio controls>
+                <source src="media/Hoteo_Pare_Ei_Dekha_Sesh_Dekha-James(sumirbd.mobi).mp3"/>
+                <!-- <source src="media/Hoteo_Pare_Ei_Dekha_Sesh_Dekha-James(sumirbd.mobi).mp3" type="audio/mpeg"/> -->
+                </audio>
+==============================================
+<video controls autoplay loop>
+
+<video controls>
+                <source src="media/Independence Day Tribute 2022 _ Yamaha Music Bangladesh(1080P_60FPS).mp4" type="video/mp4"/>
+            </video>
+======================================================
+<video controls poster="media/National Flag.PNG">
+                <source src="media/Independence Day Tribute 2022 _ Yamaha Music Bangladesh(1080P_60FPS).mp4" type="video/mp4"/>
+            </video>
+ =====================================================
+ Youtube video >>> youtube embed code setup
+
+ <div class="block3">
+            <!-- <iframe src="">
+                youtube.com
+            </iframe> -->
+            youtube embed code setup
+            <iframe>
+                youtube.com
+            </iframe>
+        </div>
+ ==============================================
+ ### Iframe ar maddhome akti website onekgulo webpage linkup kora jai.
+ 
+    <div class="container4">
+        <p>69. Iframe any webpage linkup</p>
+        <div class="block4">
+            <iframe src="eduworldcircle.com"> </iframe>
+        </div>
+    </div>
+    ===========================================================
+ audio{
+    background-color: blue;
+    padding: 10px;
+    width: 500px;
+    border-radius: 25px;
+}
+video{
+    background-color: blue;
+    padding: 10px;
+    width: 500px;
+    border-radius: 25px;
+}           
